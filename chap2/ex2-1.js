@@ -1,3 +1,5 @@
+/* Calculating Factorial */
+
 const factorial = num => {
     let result = 1;
     for (let i=0; i<num; i++) result *= (i+1);
